@@ -1,0 +1,21 @@
+{% load userfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: orangered;">user_defined filters</h1>
+        <h2 style="color: hotpink;">{{data}}</h2>
+        <h2 style="color: lawngreen;">{{data|swap}}</h2>
+        <h2 style="color: blue;">{{data|remove:'A'}}</h2>
+        <h2 style="color: yellow;">{{data|change}}</h2>
+        <h2 style="color: coral;">{{data|count:'AD'}}</h2>
+
+
+    </center>
+</body>
+</html>
